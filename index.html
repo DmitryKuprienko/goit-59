@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lesson 1</title>
+    <link rel="stylesheet" href="./style/styles.css" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <a href="#">
         <img
           src="./images/logo.svg"
@@ -17,21 +18,36 @@
         />
       </a>
       <nav>
-        <ul>
+        <ul class="menu">
+          <li class="menu-link">
+            <a href="#" class="menu-item">Про комплекс</a>
+          </li>
+
           <li>
-            <a href="#">Про комплекс</a>
+            <a href="#" class="menu-item">Район</a>
           </li>
           <li>
-            <a href="#">Район</a>
+            <a href="#" class="menu-item">Каталог квартир</a>
+            <ul class="submenu">
+              <li class="submenu-link">
+                <a href="#" class="submenu-menu-item">стандарт</a>
+              </li>
+              <li class="submenu-link">
+                <a href="#" class="submenu-menu-item">комфор</a>
+              </li>
+              <li class="submenu-link">
+                <a href="#" class="submenu-menu-item">Люкс</a>
+              </li>
+              <li class="submenu-link">
+                <a href="#" class="submenu-menu-item">СуперЛюкс</a>
+              </li>
+            </ul>
           </li>
           <li>
-            <a href="#">Каталог квартир</a>
+            <a href="#" class="menu-item">Іпотека</a>
           </li>
           <li>
-            <a href="#">Іпотека</a>
-          </li>
-          <li>
-            <a href="#">Контакти</a>
+            <a href="#" class="menu-item">Контакти</a>
           </li>
         </ul>
       </nav>
